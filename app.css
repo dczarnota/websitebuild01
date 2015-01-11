@@ -1,5 +1,17 @@
+.header_image {
+  float: left;
+}
+
+.header_info {
+  text-align: right;
+}
+
 .responsive_image {
   width: inherit;
   max-width: 100%;
   height: auto;
+}
+
+.call_to_action_button {
+  float: right;
 }
