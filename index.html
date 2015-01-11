@@ -1,21 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eagle Plumbing Inc.</title>
 
-    <link rel="stylesheet" href="scripts/navbar/navbar.css"/>
-    <link rel="stylesheet" href="scripts/about/about.css"/>
-    <link rel="stylesheet" href="scripts/contact/contact.css"/>
-    <link rel="stylesheet" href="scripts/home/home.css"/>
-    <link rel="stylesheet" href="scripts/services/services.css"/>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="app.css"/>
 
   </head>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <body>
+
+    <!-- BRAND IMAGE -->
+    <div>
+      <img src="assets/eagle_plumbing.jpg" class="responsive_image">
+    </div>
+    <!-- END BRAND IMAGE -->
+
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Plumbing <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Sewer & Drain</a></li>
+            <li><a href="#">New Construction</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START JUMBOTRON -->
+    <div class="jumbotron">
+      <h1>Soaring with pride since 1986</h1>
+      <p>Plumbing experts available 7 days a week.</p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact Now</a></p>
+    </div>
+    <!-- END JUMBOTRON -->
+
+    <div>
+      <h2>Sewer & Drain Cleaning</h2>
+        <ul>
+          <li>Available 7 days a week</li>
+          <li>Call us anytime</li>
+          <li>Same day service</li>
+          <li>Flat rate pricing</li>
+          <li>Senior discounts</li>
+          <li>Customer loyalty discounts</li>
+          <li>FREE inspections</li>
+          <li>Video camera inspections</li>
+          <li>Insurance work</li>
+        </ul>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script src="scripts/app.js"></script>
-
   </body>
 </html>
