@@ -51,3 +51,11 @@
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
+
+.slogan_text {
+  text-align: center;
+}
+
+.button_jumbotron {
+  text-align: -webkit-center;
+}
