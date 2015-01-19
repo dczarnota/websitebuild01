@@ -1,3 +1,6 @@
+.background_style {
+}
+
 .header_image {
   float: left;
 }
@@ -33,19 +36,19 @@
 .navbar-custom {
   background-color: #2C3E50;
   -webkit-box-shadow: none;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3e5771), to(#2c3e50));
+/*  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3e5771), to(#2c3e50));
   background-image: -webkit-linear-gradient(top, #3e5771, 0%, #2c3e50, 100%);
   background-image: -moz-linear-gradient(top, #3e5771 0%, #2c3e50 100%);
   background-image: linear-gradient(to bottom, #3e5771 0%, #2c3e50 100%);
-  background-repeat: repeat-x;
+  background-repeat: repeat-x;*/
 }
 
 .nav_text>li:hover {
-  background-color: #3498DB;
+  background-color: #bdc3c7;
 }
 
 .navbar-header:hover {
-  background-color: #3498DB;
+  background-color: #bdc3c7;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -59,3 +62,19 @@
 .button_jumbotron {
   text-align: -webkit-center;
 }
+
+.header_style {
+  background: url(assets/mountain.jpeg);
+}
+
+.background_image {
+  background: url(assets/mountain.jpeg);
+  background-repeat: no-repeat;
+}
+
+.jumbotron_style {
+  text-align: center;
+  /*opacity: 0.5;*/
+  /*background-color: #e74c3c;*/
+}
+
