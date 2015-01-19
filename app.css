@@ -8,6 +8,7 @@
 
 .header_info {
   text-align: right;
+  color: #ecf0f1;
 }
 
 @media(max-width: 767px) {
@@ -110,7 +111,7 @@
 }
 
 .footer_custom {
-  color: #bdc3c7;
+  color: #ecf0f1;
 }
 
 .main_text {
