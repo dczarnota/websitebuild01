@@ -60,6 +60,16 @@
   text-align: -webkit-center;
 }
 
+.button_jumbotron_style {
+  background-color: #e74c3c;
+  border-color: #e74c3c
+}
+
+.button_jumbotron_style:hover {
+  background-color: #C0392B;
+  border-color: #C0392B
+}
+
 .header_style {
   /*background: url(assets/mountain.jpeg);*/
   padding-bottom: 3px;
