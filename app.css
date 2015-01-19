@@ -34,7 +34,8 @@
 }
 
 .navbar-custom {
-  background-color: #2C3E50;
+  /*background-color: #2C3E50;*/
+  background-color: rgba(44, 62, 80, 0.8);
   -webkit-box-shadow: none;
   border: none;
   border-radius: 0px;
@@ -54,12 +55,13 @@
   text-align: center;
 }
 */
+
 .button_jumbotron {
   text-align: -webkit-center;
 }
 
 .header_style {
-  background: url(assets/mountain.jpeg);
+  /*background: url(assets/mountain.jpeg);*/
   padding-bottom: 3px;
 }
 
@@ -80,10 +82,10 @@
 
 .jumbotron_text_header {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 1.1;
   font-size: 46px;
-  color: #ecf0f1;
+  color: #c0392b;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -99,4 +101,8 @@
 
 .footer_custom {
   color: #bdc3c7;
+}
+
+.main_text {
+  color: #ecf0f1;
 }
