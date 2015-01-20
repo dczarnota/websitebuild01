@@ -64,7 +64,6 @@
 }
 
 @media(max-width: 767px) {
-
   .navbar-custom {
     background-color: #95A5A6;
   }
@@ -113,6 +112,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  width: 100%;
+}
+
+@media(min-width: 1200px) {
+  .background_image {
+    position: absolute;
+  }
 }
 
 .jumbotron_style {
