@@ -64,8 +64,18 @@
 }
 
 @media(max-width: 767px) {
-  .navbar-custom-a {
 
+  .navbar-custom {
+    background-color: #95A5A6;
+  }
+
+  .navbar-custom-a {
+    margin: 1px;
+    background-color: rgba(44, 62, 80, 0.8);
+  }
+
+  .navbar-nav {
+    margin: 0px -15px;
   }
 }
 
@@ -93,7 +103,6 @@
 }
 
 .header_style {
-  /*background: url(assets/mountain.jpeg);*/
   padding-bottom: 3px;
 }
 
