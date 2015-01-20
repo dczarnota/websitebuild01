@@ -153,3 +153,12 @@
 .main_text {
   color: #ecf0f1;
 }
+
+.featurette_custom {
+  background-color: rgba(155, 161, 166, 0.75);
+  /*background-color: rgba(127, 140, 141, 0.75);*/
+  /*background-color: rgba(149, 165, 166, 0.75);*/
+
+
+  margin-top: 5%;
+}
