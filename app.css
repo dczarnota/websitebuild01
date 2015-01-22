@@ -179,3 +179,7 @@
   border-color: #ecf0f1;
   color: #2c3e50;
 }
+
+.circle_image_custom {
+  opacity: 0.9;
+}
