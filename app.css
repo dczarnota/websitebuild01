@@ -105,6 +105,7 @@
   padding-bottom: 3px;
 }
 
+
 .background_image {
   background: url(assets/mountain.jpeg);
   top: 0;
@@ -124,6 +125,13 @@
 @media(min-height: 950px) and (min-width: 1280px) {
   .background_image {
     position: absolute;
+  }
+}
+
+@media(min-height: 950px) and (min-width: 1280px) {
+  .background_image_home {
+    position: absolute;
+    height: 115%;
   }
 }
 
@@ -165,4 +173,10 @@
   /*background-color: rgba(127, 140, 141, 0.75);*/
   /*background-color: rgba(149, 165, 166, 0.75);*/
   margin-top: 5%;
+}
+
+.background_block {
+  background-color: rgba(155, 161, 166, 0.6);
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
