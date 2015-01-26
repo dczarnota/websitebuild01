@@ -117,10 +117,22 @@
   }
 }
 
-@media(min-height: 950px) and (min-width: 1280px) {
-  .background_image_home {
+@media all and (orientation:landscape) {
+  .background_image_new_construction {
     position: absolute;
-    height: 115%;
+    height: 110%;
+  }
+}
+
+@media all and (orientation:portrait) {
+  .background_image_new_construction {
+    position: absolute;
+  }
+}
+
+@media(max-device-width: 768px) and (max-device-height: 1023px) {
+  .background_image {
+    position: absolute;
   }
 }
 
