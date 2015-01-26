@@ -24,6 +24,28 @@
   }
 }
 
+.header_info_social {
+  font-size: 32px;
+}
+
+.social_icon_individual {
+  margin: 4px;
+  color: #ecf0f1;
+}
+
+.about_social_icon_individual {
+  margin: 10px;
+  color: #ecf0f1;
+}
+
+.about_social {
+  text-align: center;
+}
+
+.about_social_icons {
+  font-size: 40px;
+}
+
 @media(max-width: 767px) {
   .button_contact {
     padding: 10px 160px;
