@@ -133,23 +133,11 @@
   }
 }
 
-/*@media(min-height: 950px) and (min-width: 1280px) {
-  .background_image {
-    position: absolute;
-  }
-}*/
-
 @media(min-height: 950px) and (min-width: 1280px) {
   .background_image_generic_custom {
     position: absolute;
   }
 }
-
-/*@media(min-height: 950px) and (min-width: 1280px) {
-  .background_image_horizontal {
-    position: inherit;
-  }
-}*/
 
 @media(min-height: 731px) and (min-width: 821px) {
   .background_image_new_construction {
@@ -157,12 +145,6 @@
   }
 }
 
-/*@media(min-width: 820px) and (max-width: 1280px){
-  .background_image_custom {
-    position: initial;
-  }
-}
-*/
 @media(width: 1024px) and (height: 600px){
   .background_image_new_construction {
     position: inherit;
