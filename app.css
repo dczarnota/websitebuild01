@@ -152,12 +152,6 @@
   }
 }
 
-@media(max-device-width: 768px) and (max-device-height: 1023px) {
-  .background_image {
-    position: absolute;
-  }
-}
-
 .jumbotron_style {
   text-align: center;
   padding-top: 30px;
