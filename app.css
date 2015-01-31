@@ -127,26 +127,91 @@
   width: 100%;
 }
 
-@media(min-height: 1044px) and (min-width: 1200px) {
+@media(min-height: 1000px) and (min-width: 992px) {
   .background_image {
     position: absolute;
   }
 }
+
+/*@media(min-height: 950px) and (min-width: 1280px) {
+  .background_image {
+    position: absolute;
+  }
+}*/
 
 @media(min-height: 950px) and (min-width: 1280px) {
-  .background_image {
+  .background_image_generic_custom {
     position: absolute;
   }
 }
 
-@media all and (orientation:landscape) {
+/*@media(min-height: 950px) and (min-width: 1280px) {
+  .background_image_horizontal {
+    position: inherit;
+  }
+}*/
+
+@media(min-height: 731px) and (min-width: 821px) {
   .background_image_new_construction {
     position: absolute;
-    height: 110%;
   }
 }
 
-@media all and (orientation:portrait) {
+/*@media(min-width: 820px) and (max-width: 1280px){
+  .background_image_custom {
+    position: initial;
+  }
+}
+*/
+@media(width: 1024px) and (height: 600px){
+  .background_image_new_construction {
+    position: inherit;
+  }
+}
+
+@media(width: 800px) and (height: 1280px){
+  .background_image_new_construction {
+    position: absolute;
+  }
+}
+
+@media(width: 966px) and (height: 604px){
+  .background_image_new_construction {
+    position: inherit;
+  }
+}
+
+@media(width: 960px) and (height: 600px){
+  .background_image_new_construction {
+    position: inherit;
+  }
+}
+
+@media(width: 960px) and (height: 540px){
+  .background_image_new_construction {
+    position: inherit;
+  }
+}
+
+@media(width: 720px) and (height: 1280px){
+  .background_image_new_construction {
+    position: absolute;
+  }
+}
+
+@media(width: 854px) and (height: 480px){
+  .background_image_new_construction {
+    position: inherit;
+  }
+}
+
+@media(width: 900px) and (height: 1440px){
+  .background_image_vertical {
+    position: absolute;
+  }
+}
+
+@media(width: 1024px) and (height: 768px){
   .background_image_new_construction {
     position: absolute;
   }
@@ -188,6 +253,7 @@
 .featurette_custom {
   background-color: rgba(155, 161, 166, 0.75);
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .background_block {
