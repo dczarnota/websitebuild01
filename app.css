@@ -272,3 +272,8 @@
 .list_custom_page {
   font-size: 21px;
 }
+
+.row_custom {
+  margin-right: 0px;
+  margin-left: 0px; 
+}
